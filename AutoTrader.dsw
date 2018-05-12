@@ -1,0 +1,122 @@
+Microsoft Developer Studio Workspace File, Format Version 6.00
+# åxçê: Ç±ÇÃ‹∞∏ΩÕﬂ∞Ω Ãß≤Ÿ Çï“èWÇ‹ÇΩÇÕçÌèúÇµÇ»Ç¢Ç≈Ç≠ÇæÇ≥Ç¢!
+
+###############################################################################
+
+Project: "AutoTrader"=".\AutoTrader.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+    Begin Project Dependency
+    Project_Dep_Name AutoTraderManager
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name AutoTraderUpdateManager
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name ChartViewer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name KehaiViewer
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TradeHelper
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name RandChart
+    End Project Dependency
+    Begin Project Dependency
+    Project_Dep_Name TradeConsole
+    End Project Dependency
+}}}
+
+###############################################################################
+
+Project: "AutoTraderUpdateManager"=".\AutoTraderUpdateManager\AutoTraderUpdateManager.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "ChartViewer"=".\ChartViewer\ChartViewer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "KehaiViewer"=".\KehaiViewer\KehaiViewer.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "RandChart"=".\RandChart\RandChart.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TradeConsole"=".\TradeConsole\TradeConsole.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Project: "TradeHelper"=".\TradeHelper\TradeHelper.dsp" - Package Owner=<4>
+
+Package=<5>
+{{{
+}}}
+
+Package=<4>
+{{{
+}}}
+
+###############################################################################
+
+Global:
+
+Package=<5>
+{{{
+}}}
+
+Package=<3>
+{{{
+}}}
+
+###############################################################################
+

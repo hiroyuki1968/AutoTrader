@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: TradeConsole - Win32 Debug--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+一時ﾌｧｲﾙ "R:\Temp\RSP311E.tmp" を作成し、次の内容を記録します
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/TradeConsole.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\TradeConsoleDlg.cpp"
+]
+Creating command line "cl.exe @R:\Temp\RSP311E.tmp" 
+一時ﾌｧｲﾙ "R:\Temp\RSP311F.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/TradeConsole.pdb" /debug /machine:I386 /out:"../Debug/TradeConsole.exe" /pdbtype:sept 
+".\Debug\AutoTraderProc.obj"
+".\Debug\Common.obj"
+".\Debug\custsite.obj"
+".\Debug\Html.obj"
+".\Debug\License.obj"
+".\Debug\LoginDlg.obj"
+".\Debug\NotesDlg.obj"
+".\Debug\RemitRegDlg.obj"
+".\Debug\SelExecModeDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StringBuffer.obj"
+".\Debug\TradeConsole.obj"
+".\Debug\TradeConsoleDlg.obj"
+".\Debug\webbrowser2.obj"
+".\Debug\TradeConsole.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @R:\Temp\RSP311F.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ｺﾝﾊﾟｲﾙ中...
+TradeConsoleDlg.cpp
+ﾘﾝｸ中...
+一時ﾌｧｲﾙ "R:\Temp\RSP3323.tmp" を作成し、次の内容を記録します
+[
+/nologo /o"Debug/TradeConsole.bsc" 
+".\Debug\StdAfx.sbr"
+".\Debug\AutoTraderProc.sbr"
+".\Debug\Common.sbr"
+".\Debug\custsite.sbr"
+".\Debug\Html.sbr"
+".\Debug\License.sbr"
+".\Debug\LoginDlg.sbr"
+".\Debug\NotesDlg.sbr"
+".\Debug\RemitRegDlg.sbr"
+".\Debug\SelExecModeDlg.sbr"
+".\Debug\StringBuffer.sbr"
+".\Debug\TradeConsole.sbr"
+".\Debug\TradeConsoleDlg.sbr"
+".\Debug\webbrowser2.sbr"]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "bscmake.exe @R:\Temp\RSP3323.tmp" の作成中
+ﾌﾞﾗｳｻﾞ ﾃﾞｰﾀﾍﾞｰｽを作成中...
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+
+
+
+<h3>結果</h3>
+TradeConsole.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>

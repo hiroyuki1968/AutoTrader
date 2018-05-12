@@ -1,0 +1,66 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: ChartViewer - Win32 Debug--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Debug/ChartViewer.res" /d "_DEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\ChartViewer\ChartViewer.rc"" 
+一時ﾌｧｲﾙ "R:\TEMP\RSP8209.tmp" を作成し、次の内容を記録します
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ChartViewer.pch" /Yu"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\ChartViewer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\ChartViewerDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\SelExecModeDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+]
+Creating command line "cl.exe @R:\TEMP\RSP8209.tmp" 
+一時ﾌｧｲﾙ "R:\TEMP\RSP821A.tmp" を作成し、次の内容を記録します
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Debug/" /Fp"Debug/ChartViewer.pch" /Yc"stdafx.h" /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @R:\TEMP\RSP821A.tmp" 
+一時ﾌｧｲﾙ "R:\TEMP\RSP821B.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:yes /pdb:"Debug/ChartViewer.pdb" /debug /machine:I386 /out:"../Debug/ChartViewer.exe" /pdbtype:sept 
+".\Debug\AutoTraderProc.obj"
+".\Debug\ChartViewer.obj"
+".\Debug\ChartViewerDlg.obj"
+".\Debug\Common.obj"
+".\Debug\License.obj"
+".\Debug\RemitRegDlg.obj"
+".\Debug\SelExecModeDlg.obj"
+".\Debug\StdAfx.obj"
+".\Debug\StringBuffer.obj"
+".\Debug\ChartViewer.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @R:\TEMP\RSP821B.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderProc.cpp
+ChartViewer.cpp
+ChartViewerDlg.cpp
+Common.cpp
+License.cpp
+RemitRegDlg.cpp
+SelExecModeDlg.cpp
+StringBuffer.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+ChartViewer.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>

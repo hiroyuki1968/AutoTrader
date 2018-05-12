@@ -1,0 +1,755 @@
+<!DOCTYPE HTML PUBLIC "-//IETF//DTD HTML//EN">
+<HTML>
+<HEAD>
+<meta name="GENERATOR" content="Microsoft&reg; HTML Help Workshop 4.1">
+<Title>AutoTrader ヘルプ</Title>
+</HEAD>
+<BODY>
+
+<FONT face="Times New Roman">
+<H3 STYLE="color: #FFFFFF; background-color: #00CCFF;"><FONT size=7>AutoTrader</FONT> - トレーディングツール Ver.1.0 <FONT color=yellow>ヘルプ</FONT></H3>
+<TABLE ALIGN="right">
+	<TR>
+		<TD>E-Mail:</TD>
+		<TD>&nbsp;</TD>
+		<TD><A HREF="mailto:hashikun777@hotmail.com">hashikun777@hotmail.com</A></TD>
+	</TR>
+	<TR>
+		<TD>HP:</TD>
+		<TD></TD>
+		<TD><A HREF="http://hp.vector.co.jp/authors/VA030717/">http://hp.vector.co.jp/authors/VA030717/</A></TD>
+	</TR>
+</TABLE>
+<BR CLEAR="right">
+<BR>
+<IMG SRC="AutoTrader.gif"><BR>
+<A NAME="免責"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">免責</H4>
+　・本ソフトウェアの利用の結果生じた損害について、本ソフトウェアの作者は一切責任を負いません。<BR>
+　・例え本ソフトウェアのバグにより損害が生じた場合についても、本ソフトウェアの作者は一切責任を負いません。（本ソフトウェアの作者はそのようなことのないように最善をつくします。）
+<A NAME="概要"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">概要</H4>
+　AutoTrader はデイトレードに有益なさまざまな秒単位の情報を１画面に表示し、１キーまたは数キーの押下で売買注文ができるソフトウェアです。<BR>
+<BR>
+　ＤＢに保存する秒単位の複数気配データは、テキストファイルにダンプしたり、時刻を指定して複数気配やチャートや銘柄ランキングの動きを再現表示するとこができます。<BR>
+<BR>
+　株価1～199円、売買単位1000株の全銘柄を選定銘柄とし、秒単位ランキング表示、複数気配ランキング表示、左右キーのページ切り替えで全チャート表示できます。<BR>
+<BR>
+　任意の10銘柄を選択銘柄として、各表や選定銘柄から任意に選択登録、または、任意コード入力登録でき、ページ0にチャート表示します。<BR>
+<BR>
+　1TickAを100万円で5000円以上の損益になる値幅とし、上昇下降TickA数をランキング表に表示します。また、1TickA抜き売買注文ができます。<BR>
+<BR>
+<TABLE>
+	<TR>
+		<TD ROWSPAN="230">&nbsp;</TD>
+		<TD ROWSPAN="230">&nbsp;</TD>
+		<TD ROWSPAN="4" VALIGN="top">必要な証券会社のアカウント</TD>
+		<TD ROWSPAN="230">&nbsp;</TD>
+		<TD>かざか証券</TD>
+	</TR>
+	<TR>
+		<TD>松井証券</TD>
+	</TR>
+	<TR>
+		<TD>コスモ証券</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+	</TR>
+	<TR>
+		<TD ROWSPAN="130" VALIGN="top">装備機能</TD>
+		<TD>秒単位詳細チャート、５秒単位チャート、全体チャート表示</TD>
+	</TR>
+	<TR>
+		<TD>買われた株数、売られた株数をチャート上に棒グラフ表示</TD>
+	</TR>
+	<TR>
+		<TD>ランキング表示は現在動いている銘柄のみを表示</TD>
+	</TR>
+	<TR>
+		<TD>選定銘柄秒単位銘柄ランキング表示、その他銘柄５秒単位ランキング表示</TD>
+	</TR>
+	<TR>
+		<TD>適時開示速報の表示、通知音、検索</TD>
+	</TR>
+	<TR>
+		<TD>各表、チャートで、適時開示速報銘柄のマーク表示</TD>
+	</TR>
+	<TR>
+		<TD>決算発表スケジュールの表示</TD>
+	</TR>
+	<TR>
+		<TD>日経平均255先物の複数気配、チャート表示</TD>
+	</TR>
+	<TR>
+		<TD>日経平均255先物の上昇下降時の通知音</TD>
+	</TR>
+	<TR>
+		<TD>選定銘柄値ボックス超え、最安値+5円超え時の通知音</TD>
+	</TR>
+	<TR>
+		<TD>買特別気配表の表示</TD>
+	</TR>
+	<TR>
+		<TD>買い注文の約定と同時に1TickA上値で自動売り注文</TD>
+	</TR>
+	<TR>
+		<TD>ランキング表に最安値からのTickA数、ストップ高値までの％値を表示</TD>
+	</TR>
+	<TR>
+		<TD>1TickA抜きに必要な株数と値幅を表示</TD>
+	</TR>
+	<TR>
+		<TD>チャート上に、前日終値、始値、ストップ高値、ストップ安値ラインを表示</TD>
+	</TR>
+	<TR>
+		<TD>ストップ高値、ストップ安値、ストップ高値までの％値、Tick数を表示</TD>
+	</TR>
+	<TR>
+		<TD>複数気配の売注文株数、買注文株数の大小をチャート上に色で表示。</TD>
+	</TR>
+	<TR>
+		<TD>一目均衡表の遅行スパン頃以降の最大売買高を表示</TD>
+	</TR>
+	<TR>
+		<TD>買われた株数 － 売られた株数 を表示</TD>
+	</TR>
+	<TR>
+		<TD>東証マザーズ、東証２部、大証２部銘柄コードの区別表示</TD>
+	</TR>
+	<TR>
+		<TD>株価チャートチェック後の上昇下降値をランキング表に表示</TD>
+	</TR>
+	<TR>
+		<TD>チャートクリックで、QuickStreamerの銘柄自動クリック</TD>
+	</TR>
+	<TR>
+		<TD>選択銘柄の登録で、QuickStreamerにも自動登録</TD>
+	</TR>
+	<TR>
+		<TD>日経平均や全銘柄のチャート等を自動ダウンロード保存</TD>
+	</TR>
+	<TR>
+		<TD>日経平均、日経225先物、マザーズ指数、ジャスダック平均株価チャートを表示</TD>
+	</TR>
+	<TR>
+		<TD>カレンダー日付選択により、過去の各チャートを表示</TD>
+	</TR>
+	<TR>
+		<TD>最高安値からのTickA数、ストップ高値までの％値等でソートしたランキング表示</TD>
+	</TR>
+	<TR>
+		<TD>チャート勉強用に、日付と銘柄を乱数で選択しチャート表示</TD>
+	</TR>
+	<TR>
+		<TD>プログラムの自動アップデート</TD>
+	</TR>
+</TABLE>
+<BR>
+　プログラムは VC++ で作成されています。<BR>
+<A NAME="動作環境"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">動作環境</H4>
+<TABLE>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>CPU</TD>
+		<TD>&nbsp;</TD>
+		<TD>Core 2 Duo 1.2GHz 相当以上</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>メモリ</TD>
+		<TD>&nbsp;</TD>
+		<TD>1.5GB 以上</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>HDD</TD>
+		<TD>&nbsp;</TD>
+		<TD>空き 約 200MB（NTFS 圧縮属性 約 100MB） / 1日分</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>画面の解像度</TD>
+		<TD>&nbsp;</TD>
+		<TD>1280 x 1024 ピクセル以上</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>インターネット接続の通信速度</TD>
+		<TD>&nbsp;</TD>
+		<TD>実効 12Mbps 以上</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>OS</TD>
+		<TD>&nbsp;</TD>
+		<TD>Windows 2000 SP2、Windows XP、Windows 2003</TD>
+	</TR>
+	<TR>
+		<TD>&nbsp;</TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+		<TD>ブラウザ</TD>
+		<TD></TD>
+		<TD>Internet Explorer 5.0 以降</TD>
+	</TR>
+</TABLE>
+<UL TYPE="circle">
+	<LI>AutoTrader の実行には Internet Explorer がインストール＆接続設定されている必要があります。
+	<LI>AutoTrader の実行には、オンラインソフト「窓の手」の「ie(2)」の「１つのサーバーに同時に張れるコネクション数の上限」の「HTTP 1.1 Server」と「HTTP 1.0 Server」が「16」に設定されている必要があります。
+</UL>
+<A NAME="アンインストール方法"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">アンインストール方法</H4>
+　スタートメニューの<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader のアンインストール」</B></FONT><BR>
+<BR>
+または、コントロールパネルの<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「アプリケーションの追加と削除」</B></FONT><BR>
+<BR>
+によりアンインストールできます。<BR>
+<BR>
+　アンインストールで、データや設定を保存する「データフォルダ」と、パッチ適用のための「セットアップ保存フォルダ」は削除されません。必要でしたら、手動で削除してください。<BR>
+<BR>
+　「データフォルダ」は、デフォルトでユーザーの「Application Data」フォルダ（隠しフォルダ）にある「AutoTrader」フォルダです。設定で参照／変更できます。<BR>
+　　Win2k系OS例： C:\Documents and Settings\Owner\Application Data\AutoTrader<BR>
+　　Win95系OS例： C:\WINDOWS\Application Data\AutoTrader（※）<BR>
+<BR>
+　「セットアップ保存フォルダ」は、「All Users」の「Application Data」フォルダ（隠しフォルダ）にある「AutoTrader」フォルダです。<BR>
+　　Win2k系OS例： C:\Documents and Settings\All Users\Application Data\AutoTrader<BR>
+　　Win95系OS例： C:\WINDOWS\Application Data\AutoTrader（※）<BR>
+<BR>
+　※Win95系OSでは、デフォルトの「データフォルダ」と「セットアップ保存フォルダ」は同一です。<BR>
+<BR>
+　セットアップ保存フォルダは、パッチ適用のために必要なバージョンより古いセットアップはアップグレード時に自動的に削除されますので、アンインストールしない限り削除する必要はありません。削除するとパッチ適用によるアップグレードができません。<BR>
+<A NAME="アップグレード方法"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">アップグレード方法</H4>
+　自動アップデート機能によりアップグレードできます。<BR>
+<BR>
+　または、スタートメニューの<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader のアップデートチェック」</B></FONT><BR>
+<BR>
+　または、メインメニューの<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader のアップデートチェック」</B></FONT><BR>
+<BR>
+　または、<FONT COLOR="MEDIUMBLUE"><B>「設定」</B></FONT>の<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「起動時の AutoTrader のアップデートチェック」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「今すぐチェック」</B></FONT><BR>
+<BR>
+によりアップグレードできます。<BR>
+<BR>
+　手動でアップグレードする場合は、リリースされている、パッチパッケージ、または、フルインストールパッケージ、のインストールを実行します。古いバージョンのアンインストールは自動で行われます。※<BR>
+<BR>
+　パッチパッケージのインストール時、<FONT COLOR="MEDIUMBLUE"><B>「修復」</B></FONT>、<FONT COLOR="MEDIUMBLUE"><B>「削除」</B></FONT>ラジオボタンは<FONT COLOR="MEDIUMBLUE"><B>「修復」</B></FONT>を選択します。<BR>
+<BR>
+　アップグレードで、データベースは削除されずに引き継がれます。設定ファイルは削除されずに引き継がれます。<BR>
+<BR>
+※　同時リリースされているパッチパッケージの適用対象バージョンから、フルインストールパッケージで手動アップグレードする場合、<BR>
+<BR>
+　<FONT COLOR="MEDIUMBLUE"><B>「別のバージョンの製品が既にインストールされています。このバージョンのインストールを続行できません。既にインストールされているバージョンの製品を構成、または削除するには、コントロール パネルの [プログラムの追加と削除] アイコンを使用します。」</B></FONT><BR>
+<BR>
+　と表示されます。古いバージョンの AutoTrader をアンインストールしてから、新しいバージョンの AutoTrader のインストールしてください。<BR>
+<A NAME="実行方法"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">実行方法</H4>
+　スタートメニューの<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT><BR>
+<BR>
+によりメインプログラムを起動し、<FONT COLOR="MEDIUMBLUE"><B>「起動完了」</B></FONT>表示後、スタートメニューの<BR>
+<BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「TradeHelper」</B></FONT><BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「TradeConsole」</B></FONT><BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「ChartViewer」</B></FONT><BR>
+　　　<FONT COLOR="MEDIUMBLUE"><B>「プログラム」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「AutoTrader」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「KehaiViewer」</B></FONT><BR>
+　　　※起動順は任意<BR>
+<BR>
+により各サブプログラムを起動します。<BR>
+　TradeConsole では、<FONT COLOR="MEDIUMBLUE"><B>「登録銘柄」</B></FONT>をクリックし、２番目のタブ名が<FONT COLOR="MEDIUMBLUE"><B>「かざか証券ポップアップ」</B></FONT>→<FONT COLOR="MEDIUMBLUE"><B>「KAZAKA Streamer」</B></FONT>になった後、<FONT COLOR="MEDIUMBLUE"><B>「KAZAKA Streamer」</B></FONT>タブを選択し、<FONT COLOR="MEDIUMBLUE"><B>「ワイド」</B></FONT>をクリックます。
+<A NAME="実行モードの選択"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">実行モードの選択（AutoTrader、TradeHelper、TradeConsole、ChartViewer、KehaiViewer 共通）</H4>
+<IMG SRC="SelExecMode.gif" border="1"><BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD>トレードモード</TD>
+		<TD>複数気配等データをダウンロード表示保存するモード。</TD>
+	</TR>
+	<TR>
+		<TD>シミュレーションモード</TD>
+		<TD>保存した複数気配データ等をテキストファイルにダンプするモード。（現在無効にしている自動売買ロジックのシミュレーション機能のダンプ部。）</TD>
+	</TR>
+	<TR>
+		<TD>リアルタイムシミュレーションモード</TD>
+		<TD>日時を指定して、保存した複数気配等データより、複数気配、チャート、ランキングの動きを表示するモード。</TD>
+	</TR>
+	<TR>
+		<TD>メンテナンスモード</TD>
+		<TD>証券会社がメンテナンス中の場合にチェックする。</TD>
+	</TR>
+	<TR>
+		<TD>シミュレーションモード開始日時</TD>
+		<TD><FONT COLOR="MEDIUMBLUE"><B>「シミュレーションモード」</B></FONT>、<FONT COLOR="MEDIUMBLUE"><B>「リアルタイムシミュレーションモード」</B></FONT>の開始日時を指定する。</TD>
+	</TR>
+</TABLE>
+<A NAME="ログイン"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">ログイン（TradeHelper、TradeConsole 共通）</H4>
+<IMG SRC="Login.gif" border="1"><BR>
+<BR>
+　かざか証券のログインパスワードを入力します。<BR>
+<A NAME="AutoTrader の機能一覧"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader の機能一覧</H4>
+　AutoTrader （パッケージ名のことでなくて、AutoTrader.exe 単体）の機能一覧。<BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD>銘柄基本情報ダウンロード</TD>
+		<TD>全銘柄の基本情報をダウンロードします。</TD>
+	</TR>
+	<TR>
+		<TD>日足データダウンロード</TD>
+		<TD>全銘柄の日足データをダウンロードします。</TD>
+	</TR>
+	<TR>
+		<TD>複数気配ダウンロード</TD>
+		<TD>8:00 ～ 11:01、12:05 ～ 15:16 に、選択銘柄の複数気配等データを秒単位でダウンロードし、ＤＢへ保存します。</TD>
+	</TR>
+	<TR>
+		<TD>上下１本気配ダウンロード</TD>
+		<TD>8:00 ～ 9:00、12:05 ～ 12:30 に、選定銘柄の上下１本気配等データを秒単位でダウンロードし、ＤＢへ保存します。</TD>
+	</TR>
+	<TR>
+		<TD>４本値データダウンロード</TD>
+		<TD>9:00 ～ 11:01、12:30 ～ 15:16 に、選定銘柄の４本値等データを秒単位でダウンロードし、ＤＢへ保存します。</TD>
+	</TR>
+	<TR>
+		<TD>終値ダウンロード</TD>
+		<TD>起動時と 11:01 と 15:31 に、全銘柄の４本値等データをダウンロードし、ＤＢへ保存します。また起動時には、株価1～199円の選定銘柄を抽出します。</TD>
+	</TR>
+	<TR>
+		<TD>ＤＢの最適化</TD>
+		<TD>11:01 と 15:31 にＤＢを最適化します。</TD>
+	</TR>
+	<TR>
+		<TD>チャート等ダウンロード</TD>
+		<TD>17:00 に全銘柄のチャート、日経平均、日経225先物、マザーズ指数、ジャスダック平均株価の、日中足、日足チャート、最終ランキング表、ストップ高安表をデータフォルダの Chart フォルダにダウンロードします。</TD>
+	</TR>
+	<TR>
+		<TD>株価リスト生成</TD>
+		<TD>11:01 と 15:31 に、寄り付いた全銘柄の株価リストをデータフォルダの PliceList.csv に生成します。</TD>
+	</TR>
+	<TR>
+		<TD>複数気配等データのダンプ</TD>
+		<TD>指定した１銘柄、または、全選択銘柄の複数気配等データをデータフォルダの Log フォルダにテキストファイルとしてダンプできます。</TD>
+	</TR>
+	<TR>
+		<TD>古いログファイルの削除</TD>
+		<TD>起動時に、データフォルダの Log フォルダの 20日以上前のログファイルを削除します。</TD>
+	</TR>
+</TABLE>
+<A NAME="AutoTrader の設定"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader の設定</H4>
+<IMG SRC="Setup.gif" border="1"><BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD>かざか証券</TD>
+		<TD>かざか証券のアカウントを設定します。</TD>
+	</TR>
+	<TR>
+		<TD>松井証券</TD>
+		<TD>松井証券のアカウントを設定します。</TD>
+	</TR>
+	<TR>
+		<TD>コスモ証券</TD>
+		<TD>コスモ証券のアカウントを設定します。</TD>
+	</TR>
+	<TR>
+		<TD>起動時等の AutoTrader のアップデートチェック</TD>
+		<TD>AutoTrader 起動時等に自動で実行されるアップデートチェックの方法を設定します。</TD>
+	</TR>
+	<TR>
+		<TD>データフォルダ</TD>
+		<TD>複数気配、チャート等データを保存するデータフォルダの場所を設定します。</TD>
+	</TR>
+</TABLE>
+<A NAME="AutoTrader のトレードデータ表示"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader のトレードデータ表示</H4>
+<IMG SRC="DispTradeData.gif" border="1"><BR>
+<BR>
+　自動売買機能（現在無効にしている）のトレードデータ表示部です。起動時の残高が表示されます。<BR>
+<A NAME="AutoTrader の営業日表示"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader の営業日表示</H4>
+<IMG SRC="DispDate.gif" border="1"><BR>
+<BR>
+　営業日を３日分表示します。<BR>
+<A NAME="AutoTrader の機能ボタン"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader の機能ボタン</H4>
+<IMG SRC="BtnFunc.gif" border="1"><BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD>分足</TD>
+		<TD>分足データをダウンロードし、分足データ中の権利落ち日情報を取得し、表示を更新します。権利落ち日の銘柄の銘柄名の先頭には「!」が表示されます。権利落ち日情報は8時58分以降に取得できます。（8時58分に自動取得してます。）</TD>
+	</TR>
+	<TR>
+		<TD>開始</TD>
+		<TD>シミュレーションモードのダンプの開始。</TD>
+	</TR>
+	<TR>
+		<TD>終了</TD>
+		<TD>シミュレーションモードのダンプの終了。</TD>
+	</TR>
+	<TR>
+		<TD>銘柄</TD>
+		<TD>トレードモード時は、選択銘柄コードテキストボックスにセットした選択銘柄を登録する（TradeHelper の銘柄登録機能の方が便利です。）。シミュレーションモード時は、複数気配等保存データの日時テキストボックスに入力した日時の選択銘柄を取得し登録する。リアルタイムシミュレーションモード時は、複数気配等保存データのカレント日時の選択銘柄を取得し登録する。</TD>
+	</TR>
+	<TR>
+		<TD>設定</TD>
+		<TD>設定ダイアログを起動する。</TD>
+	</TR>
+</TABLE>
+<A NAME="AutoTrader のダンプ設定"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader のダンプ設定</H4>
+<IMG SRC="SetupSim.gif" border="1"><BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD>ダンプ銘柄コードテキストボックス</TD>
+		<TD>ダンプする銘柄コードを入力する。または、入力したい選択銘柄コードテキストボックスをクリックすれば自動で入力される。空文字列入力の場合、全選択銘柄をダンプする。</TD>
+	</TR>
+	<TR>
+		<TD>ダンプ銘柄名表示</TD>
+		<TD>ダンプ銘柄コードテキストボックスに入力した銘柄コードの銘柄名が表示される。</TD>
+	</TR>
+	<TR>
+		<TD>ダンプ日時テキストボックス</TD>
+		<TD>シミュレーションモード時の、<FONT COLOR="MEDIUMBLUE"><B>「銘柄」</B></FONT>ボタンによって選択銘柄を取得する日時を指定する。</TD>
+	</TR>
+	<TR>
+		<TD>ログ出力チェックボックス</TD>
+		<TD>ログを出力するかどうかを指定する。（実行モードによらない。）</TD>
+	</TR>
+</TABLE>
+<A NAME="AutoTrader の選択銘柄設定"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">AutoTrader の選択銘柄設定</H4>
+<IMG SRC="SetupNiceCode.gif" border="1"><BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD>選択銘柄コードテキストボックス</TD>
+		<TD>選択銘柄コードを入力する。</TD>
+	</TR>
+	<TR>
+		<TD>準自動売買チェックボックス</TD>
+		<TD>準自動売買機能（現在無効にしている）のオン／オフをセットする。</TD>
+	</TR>
+	<TR>
+		<TD>選択銘柄名表示</TD>
+		<TD>選択銘柄コードテキストボックスに入力した銘柄コードの銘柄名が表示される。</TD>
+	</TR>
+</TABLE>
+<A NAME="TradeHelper の機能一覧"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">TradeHelper の機能一覧</H4>
+　TradeHelper の機能一覧。<BR>
+<BR>
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+</TABLE>
+
+
+
+
+
+<TABLE BORDER="1">
+	<TR>
+		<TH BGCOLOR="lightgreen">項目</TH>
+		<TH BGCOLOR="lightgreen">説明</TH>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+	</TR>
+</TABLE>
+
+
+
+<A NAME="トラブルシューティング"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">トラブルシューティング</H4>
+<OL TYPE="a" START=2>
+	<LI>インターネット上の証券会社ホームページのリニューアルにより、複数気配、チャート等が正しく表示されなくなる場合があります。その際は AutoTrader を最新版にアップグレードしてください。
+</OL>
+<A NAME="最新版の入手先ホームページ"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">最新版の入手先ホームページ</H4>
+　　Hashikun's library（<A HREF="http://hp.vector.co.jp/authors/VA030717/">http://hp.vector.co.jp/authors/VA030717/</A>）<BR>
+<A NAME="シェアウェア"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">シェアウェア</H4>
+　AutoTrader はシェアウェアです。インストールして後、１週間、無料で使用できますが、続けてご使用になるには作者にシェアウェア料金をご送金ください。<BR>
+<BR>
+　ご送金には現在 Vector のシェアレジ、銀行振込をご利用できます。<BR>
+<BR>
+　　銀行振込<BR>
+　　　三菱東京UFJ銀行<BR>
+　　　本店　　　　　　　　店番号001<BR>
+　　　口座の種類　　　　　普通<BR>
+　　　口座番号　　　　　　0657141<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　　みずほ銀行<BR>
+　　　インターネット支店　店番号560<BR>
+　　　口座の種類　　　　　普通<BR>
+　　　口座番号　　　　　　1156700<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　　三井住友銀行<BR>
+　　　本店営業部　　　　　店番号200<BR>
+　　　口座の種類　　　　　残高別普通（総合）<BR>
+　　　口座番号　　　　　　4709428<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　　イーバンク銀行<BR>
+　　　ジャズ支店　　　　　支店番号201<BR>
+　　　口座の種類　　　　　普通<BR>
+　　　口座番号　　　　　　1238192<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　　新生銀行<BR>
+　　　本店　　　　　　　　店番号400<BR>
+　　　口座の種類　　　　　円普通預金<BR>
+　　　口座番号　　　　　　1371630<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　　セブン銀行<BR>
+　　　カーネーション支店　支店番号105<BR>
+　　　口座の種類　　　　　普通<BR>
+　　　口座番号　　　　　　0503496<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　　ジャパンネット銀行<BR>
+　　　本店営業部　　　　　支店番号001<BR>
+　　　口座の種類　　　　　普通<BR>
+　　　口座番号　　　　　　6933869<BR>
+　　　名義　　　　　　　　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　ゆうちょ銀行<BR>
+　　　口座番号　記号 16430　番号  1488251<BR>
+　　　口座名義　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　　ゆうちょ銀行 振替口座（旧 郵便振替）<BR>
+　　　口座番号　01360-2-  69924<BR>
+　　　加入者名　橋詰 裕行 （ハシヅメ ヒロユキ）<BR>
+<BR>
+　銀行振込でご送金される方は、<BR>
+<BR>
+　　Hashikun's library（<A HREF="http://hp.vector.co.jp/authors/VA030717/">http://hp.vector.co.jp/authors/VA030717/</A>）<BR>
+<BR>
+の「シェアウェア送金通知フォーム」よりご送信ください。または、<BR>
+<BR>
+　　ソフトウェア名（AutoTrader）<BR>
+　　登録するメールアドレス<BR>
+　　ご送金先金融機関名（ゆうちょ銀行の場合、振替口座かどうかも）<BR>
+　　お振込人名義（漢字とカナ）<BR>
+<BR>
+を電子メールで <A HREF="mailto:hashikun777@hotmail.com">hashikun777@hotmail.com</A> へお知らせください。<BR>
+<BR>
+　ゆうちょ銀行 振替口座（旧 郵便振替）の入金確認には３～７日くらいかかります。お急ぎの方は払込受領証をスキャンした画像を電子メールへ添付してください。<BR>
+<BR>
+　AutoTrader のシェアウェア料金は５２５円（税込）です。<BR>
+<A NAME="登録メールアドレスの変更"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">登録メールアドレスの変更</H4>
+　現在のところ、登録メールアドレスを AutoTrader がライセンスのチェック以外のアプリケーション用（録画予約用等）として使用すること（または予定）はありませんが、AutoTrader ご利用者の方々へライセンスキーに関する重要な連絡事項が発生した場合（ライセンスキーのアルゴリズムのバグ等によるライセンスキーの変更等）に、ご連絡先として使用することはありますので、登録メールアドレスの変更をされた際にはご連絡ください。<BR>
+<A NAME="証券会社サイト"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">証券会社サイト</H4>
+　AutoTrader は<BR>
+<BR>
+<TABLE>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>かざか証券</TD>
+		<TD>&nbsp;</TD>
+		<TD><A HREF="http://net.sec.kazaka.jp/">http://net.sec.kazaka.jp/</A></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+		<TD>松井証券</TD>
+		<TD></TD>
+		<TD><A HREF="http://www.matsui.co.jp/">http://www.matsui.co.jp/</A></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+		<TD>コスモ証券</TD>
+		<TD></TD>
+		<TD><A HREF="http://www.cosmo-sec.co.jp/CGI/index.cgi">http://www.cosmo-sec.co.jp/CGI/index.cgi</A></TD>
+	</TR>
+</TABLE>
+<BR>
+より複数気配等データのダウンロードを行ってます。<BR>
+<A NAME="サポート＆機能追加のリクエスト"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">サポート＆機能追加のリクエスト</H4>
+　AutoTrader についてのお問い合わせ、機能追加のリクエストは<BR>
+<BR>
+<TABLE>
+	<TR>
+		<TD>&nbsp;</TD>
+		<TD>&nbsp;</TD>
+		<TD>電子メール</TD>
+		<TD>&nbsp;</TD>
+		<TD><A HREF="mailto:hashikun777@hotmail.com">hashikun777@hotmail.com</A></TD>
+	</TR>
+	<TR>
+		<TD></TD>
+		<TD></TD>
+		<TD>電子掲示板</TD>
+		<TD></TD>
+		<TD><A HREF="http://hp.vector.co.jp/authors/VA030717/">http://hp.vector.co.jp/authors/VA030717/</A></TD>
+	</TR>
+</TABLE>
+<BR>
+へどうぞ。<BR>
+<A NAME="バージョン履歴"></A>
+<H4 STYLE="color: #FFFFFF; background-color: #0000FF;">バージョン履歴</H4>
+<TABLE>
+	<TR>
+		<TD VALIGN="top">2008/08/11</TD>
+		<TD></TD>
+		<TD VALIGN="top">Ver.1.0</TD>
+		<TD>
+			<UL TYPE="disc">
+				<LI>最初のバージョン。
+			</UL>
+		</TD>
+	</TR>
+</TABLE>
+</FONT>
+
+</BODY>
+</HTML>

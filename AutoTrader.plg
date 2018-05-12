@@ -1,0 +1,437 @@
+<html>
+<body>
+<pre>
+<h1>ﾋﾞﾙﾄﾞのﾛｸﾞ</h1>
+<h3>
+--------------------構成: AutoTraderUpdateManager - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/AutoTraderUpdateManager.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\AutoTraderUpdateManager\AutoTraderUpdateManager.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSPFDA1.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/AutoTraderUpdateManager.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderUpdateManager\AutoTraderUpdateManager.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderUpdateManager\AutoTraderUpdateManagerWnd.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderUpdateManager\Common.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSPFDA1.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSPFDB1.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/AutoTraderUpdateManager.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderUpdateManager\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSPFDB1.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSPFDB2.tmp" を作成し、次の内容を記録します
+[
+/nologo /subsystem:windows /incremental:no /pdb:"Release/AutoTraderUpdateManager.pdb" /machine:I386 /out:"../Release/AutoTraderUpdateManager.exe" 
+".\Release\AutoTraderUpdateManager.obj"
+".\Release\AutoTraderUpdateManagerWnd.obj"
+".\Release\Common.obj"
+".\Release\StdAfx.obj"
+".\Release\AutoTraderUpdateManager.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSPFDB2.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderUpdateManager.cpp
+AutoTraderUpdateManagerWnd.cpp
+Common.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+<h3>
+--------------------構成: ChartViewer - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/ChartViewer.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\ChartViewer\ChartViewer.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP4.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ChartViewer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\ChartViewer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\ChartViewerDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\SelExecModeDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP4.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP5.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/ChartViewer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\ChartViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP5.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP6.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:no /pdb:"Release/ChartViewer.pdb" /machine:I386 /out:"../Release/ChartViewer.exe" 
+".\Release\AutoTraderProc.obj"
+".\Release\ChartViewer.obj"
+".\Release\ChartViewerDlg.obj"
+".\Release\Common.obj"
+".\Release\License.obj"
+".\Release\RemitRegDlg.obj"
+".\Release\SelExecModeDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringBuffer.obj"
+".\Release\ChartViewer.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSP6.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderProc.cpp
+ChartViewer.cpp
+ChartViewerDlg.cpp
+Common.cpp
+License.cpp
+RemitRegDlg.cpp
+SelExecModeDlg.cpp
+StringBuffer.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+<h3>
+--------------------構成: KehaiViewer - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/KehaiViewer.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\KehaiViewer\KehaiViewer.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP44B.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/KehaiViewer.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\KehaiViewer\KehaiViewer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\KehaiViewer\KehaiViewerDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\KehaiViewer\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\KehaiViewer\SelExecModeDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP44B.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP44C.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/KehaiViewer.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\KehaiViewer\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP44C.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP44D.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:no /pdb:"Release/KehaiViewer.pdb" /machine:I386 /out:"../Release/KehaiViewer.exe" 
+".\Release\AutoTraderProc.obj"
+".\Release\Common.obj"
+".\Release\KehaiViewer.obj"
+".\Release\KehaiViewerDlg.obj"
+".\Release\License.obj"
+".\Release\RemitRegDlg.obj"
+".\Release\SelExecModeDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringBuffer.obj"
+".\Release\KehaiViewer.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSP44D.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderProc.cpp
+Common.cpp
+KehaiViewer.cpp
+KehaiViewerDlg.cpp
+License.cpp
+RemitRegDlg.cpp
+SelExecModeDlg.cpp
+StringBuffer.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+<h3>
+--------------------構成: TradeHelper - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/TradeHelper.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\TradeHelper\TradeHelper.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP873.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/TradeHelper.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\custsite.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\DispNewsThread.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\DispRankingThread.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\DispStockAveThread.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\DispWB2Thread.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Html.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\LoginDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\NotesDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\SelExecModeDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\TradeHelper.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\TradeHelperDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\TradeHelperProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\webbrowser2.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP873.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP874.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/TradeHelper.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\TradeHelper\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP874.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP885.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:no /pdb:"Release/TradeHelper.pdb" /machine:I386 /out:"../Release/TradeHelper.exe" 
+".\Release\AutoTraderProc.obj"
+".\Release\Common.obj"
+".\Release\custsite.obj"
+".\Release\DispNewsThread.obj"
+".\Release\DispRankingThread.obj"
+".\Release\DispStockAveThread.obj"
+".\Release\DispWB2Thread.obj"
+".\Release\Html.obj"
+".\Release\License.obj"
+".\Release\LoginDlg.obj"
+".\Release\NotesDlg.obj"
+".\Release\RemitRegDlg.obj"
+".\Release\SelExecModeDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringBuffer.obj"
+".\Release\TradeHelper.obj"
+".\Release\TradeHelperDlg.obj"
+".\Release\TradeHelperProc.obj"
+".\Release\webbrowser2.obj"
+".\Release\TradeHelper.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSP885.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderProc.cpp
+Common.cpp
+custsite.cpp
+DispNewsThread.cpp
+DispRankingThread.cpp
+DispStockAveThread.cpp
+DispWB2Thread.cpp
+Html.cpp
+License.cpp
+LoginDlg.cpp
+NotesDlg.cpp
+RemitRegDlg.cpp
+SelExecModeDlg.cpp
+StringBuffer.cpp
+TradeHelper.cpp
+TradeHelperDlg.cpp
+TradeHelperProc.cpp
+webbrowser2.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+   ﾗｲﾌﾞﾗﾘ ../Release/TradeHelper.lib とｵﾌﾞｼﾞｪｸﾄ ../Release/TradeHelper.exp を作成中
+<h3>
+--------------------構成: RandChart - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/RandChart.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\RandChart\RandChart.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP168A.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RandChart.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\RandChart\RandChart.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\RandChart\RandChartDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\RandChart\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\RandChart\webbrowser2.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP168A.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP168B.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/RandChart.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\RandChart\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP168B.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP168C.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:no /pdb:"Release/RandChart.pdb" /machine:I386 /out:"../Release/RandChart.exe" 
+".\Release\AutoTraderProc.obj"
+".\Release\Common.obj"
+".\Release\License.obj"
+".\Release\RandChart.obj"
+".\Release\RandChartDlg.obj"
+".\Release\RemitRegDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringBuffer.obj"
+".\Release\webbrowser2.obj"
+".\Release\RandChart.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSP168C.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderProc.cpp
+Common.cpp
+License.cpp
+RandChart.cpp
+RandChartDlg.cpp
+RemitRegDlg.cpp
+StringBuffer.cpp
+webbrowser2.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+<h3>
+--------------------構成: TradeConsole - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/TradeConsole.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\TradeConsole\TradeConsole.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP1B2E.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TradeConsole.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\custsite.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Html.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\LoginDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\NotesDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\SelExecModeDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\TradeConsole.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\TradeConsoleDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\webbrowser2.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP1B2E.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP1B3F.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /Fp"Release/TradeConsole.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\TradeConsole\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP1B3F.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP1B40.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:no /pdb:"Release/TradeConsole.pdb" /machine:I386 /out:"../Release/TradeConsole.exe" /IGNORE:4089 
+".\Release\AutoTraderProc.obj"
+".\Release\Common.obj"
+".\Release\custsite.obj"
+".\Release\Html.obj"
+".\Release\License.obj"
+".\Release\LoginDlg.obj"
+".\Release\NotesDlg.obj"
+".\Release\RemitRegDlg.obj"
+".\Release\SelExecModeDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringBuffer.obj"
+".\Release\TradeConsole.obj"
+".\Release\TradeConsoleDlg.obj"
+".\Release\webbrowser2.obj"
+".\Release\TradeConsole.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSP1B40.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTraderProc.cpp
+Common.cpp
+custsite.cpp
+Html.cpp
+License.cpp
+LoginDlg.cpp
+NotesDlg.cpp
+RemitRegDlg.cpp
+SelExecModeDlg.cpp
+StringBuffer.cpp
+TradeConsole.cpp
+TradeConsoleDlg.cpp
+webbrowser2.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+   ﾗｲﾌﾞﾗﾘ ../Release/TradeConsole.lib とｵﾌﾞｼﾞｪｸﾄ ../Release/TradeConsole.exp を作成中
+<h3>
+--------------------構成: AutoTrader - Win32 Release--------------------
+</h3>
+<h3>ｺﾏﾝﾄﾞ ﾗｲﾝ</h3>
+Creating command line "rc.exe /l 0x411 /fo"Release/AutoTrader.res" /d "NDEBUG" /d "_AFXDLL" "D:\home\Visual Studio Projects\AutoTrader\AutoTrader.rc"" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP21A7.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/AutoTrader.pch" /Yu"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\AutoTrader.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\AutoTraderProc.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Common.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\DlFileThread.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\DlHtmlThread.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\Html.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\License.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\RemitRegDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\SelExecModeDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\SetupDlg.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\StringBuffer.cpp"
+"D:\home\Visual Studio Projects\AutoTrader\UpdateDetailDlg.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP21A7.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP21A8.tmp" を作成し、次の内容を記録します
+[
+/nologo /MD /W3 /GX /O2 /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_AFXDLL" /D "_MBCS" /FR"Release/" /Fp"Release/AutoTrader.pch" /Yc"stdafx.h" /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\home\Visual Studio Projects\AutoTrader\StdAfx.cpp"
+]
+Creating command line "cl.exe @D:\Users\Hiro\AppData\Local\Temp\RSP21A8.tmp" 
+一時ﾌｧｲﾙ "D:\Users\Hiro\AppData\Local\Temp\RSP21B8.tmp" を作成し、次の内容を記録します
+[
+htmlhelp.lib ShFolder.Lib /nologo /subsystem:windows /incremental:no /pdb:"Release/AutoTrader.pdb" /machine:I386 /out:"Release/AutoTrader.exe" 
+".\Release\AutoTrader.obj"
+".\Release\AutoTraderDlg.obj"
+".\Release\AutoTraderProc.obj"
+".\Release\Common.obj"
+".\Release\DlFileThread.obj"
+".\Release\DlHtmlThread.obj"
+".\Release\Html.obj"
+".\Release\License.obj"
+".\Release\RemitRegDlg.obj"
+".\Release\SelExecModeDlg.obj"
+".\Release\SetupDlg.obj"
+".\Release\StdAfx.obj"
+".\Release\StringBuffer.obj"
+".\Release\UpdateDetailDlg.obj"
+".\Release\AutoTrader.res"
+]
+ｺﾏﾝﾄﾞ ﾗｲﾝ "link.exe @D:\Users\Hiro\AppData\Local\Temp\RSP21B8.tmp" の作成中
+<h3>ｱｳﾄﾌﾟｯﾄ ｳｨﾝﾄﾞｳ</h3>
+ﾘｿｰｽをｺﾝﾊﾟｲﾙ中...
+ｺﾝﾊﾟｲﾙ中...
+StdAfx.cpp
+ｺﾝﾊﾟｲﾙ中...
+AutoTrader.cpp
+AutoTraderDlg.cpp
+AutoTraderProc.cpp
+Common.cpp
+DlFileThread.cpp
+DlHtmlThread.cpp
+Html.cpp
+License.cpp
+RemitRegDlg.cpp
+SelExecModeDlg.cpp
+SetupDlg.cpp
+StringBuffer.cpp
+UpdateDetailDlg.cpp
+ｺｰﾄﾞを生成中...
+ﾘﾝｸ中...
+
+
+
+<h3>結果</h3>
+AutoTrader.exe - ｴﾗｰ 0、警告 0
+</pre>
+</body>
+</html>

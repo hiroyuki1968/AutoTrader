@@ -1,0 +1,18 @@
+//
+// KEHAIVIEWER.RC2 - このリソースは Microsoft Visual C++ で直接編集することはできません
+//
+
+#ifdef APSTUDIO_INVOKED
+	#error this file is not editable by Microsoft Visual C++
+#endif //APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+// 独自にリソースを編集する場合はこの場所に追加してください...
+
+// ビジュアルスタイルを適用する
+//#define CREATEPROCESS_MANIFEST_RESOURCE_ID 1
+//#define RT_MANIFEST 24
+//CREATEPROCESS_MANIFEST_RESOURCE_ID RT_MANIFEST "KehaiViewer.exe.manifest"
+
+/////////////////////////////////////////////////////////////////////////////

@@ -1,0 +1,399 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// 日本語 resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE LANG_JAPANESE, SUBLANG_DEFAULT
+#pragma code_page(932)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 17, 1\r\n"
+    "#pragma code_page(932)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\AutoTrader.rc2""  // Microsoft Visual C++ 以外のツールで編集されたリソース\r\n"
+    "#include ""l.jpn\\afxres.rc""          // 標準のコンポーネント\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON    DISCARDABLE     "res\\AutoTrader.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_AUTOTRADER_DIALOG DIALOGEX 0, 0, 847, 640
+STYLE DS_MODALFRAME | WS_POPUP | WS_VISIBLE | WS_CAPTION | WS_SYSMENU
+EXSTYLE WS_EX_APPWINDOW
+CAPTION "AutoTrader"
+FONT 9, "ＭＳ ゴシック"
+BEGIN
+    EDITTEXT        IDC_EDIT16,0,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,40,15,85,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT18,0,30,84,14,ES_AUTOHSCROLL
+    CONTROL         "ﾛｸﾞ表示",IDC_CHECK1,"Button",BS_AUTOCHECKBOX | 
+                    WS_TABSTOP,85,35,44,10
+    DEFPUSHBUTTON   "08:58",IDC_BUTTON1,640,0,26,14
+    PUSHBUTTON      "15:31",IDC_BUTTON2,670,0,26,14
+    PUSHBUTTON      "17:00",IDC_BUTTON3,700,0,26,14
+    PUSHBUTTON      "開始",IDC_BUTTON4,730,0,26,14
+    PUSHBUTTON      "終了",IDC_BUTTON5,760,0,26,14,WS_DISABLED
+    PUSHBUTTON      "銘柄",IDC_BUTTON6,790,0,26,14
+    PUSHBUTTON      "設定",IDC_BUTTON7,820,0,26,14
+    EDITTEXT        IDC_EDIT20,135,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT21,200,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT22,265,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT23,330,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT24,395,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT25,460,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT26,525,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT27,590,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT28,655,15,40,14,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT29,720,15,40,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_CHECK10,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,180,
+                    20,16,8
+    CONTROL         "",IDC_CHECK11,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,245,
+                    20,16,8
+    CONTROL         "",IDC_CHECK12,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,310,
+                    20,16,8
+    CONTROL         "",IDC_CHECK13,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,375,
+                    20,16,8
+    CONTROL         "",IDC_CHECK14,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,440,
+                    20,16,8
+    CONTROL         "",IDC_CHECK15,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,505,
+                    20,16,8
+    CONTROL         "",IDC_CHECK16,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,570,
+                    20,16,8
+    CONTROL         "",IDC_CHECK17,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,635,
+                    20,16,8
+    CONTROL         "",IDC_CHECK18,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,700,
+                    20,16,8
+    CONTROL         "",IDC_CHECK19,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,765,
+                    20,16,8
+    EDITTEXT        IDC_EDIT30,135,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT31,200,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT32,265,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT33,330,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT34,395,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT35,460,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT36,525,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT37,590,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT38,655,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    EDITTEXT        IDC_EDIT39,720,30,65,14,ES_AUTOHSCROLL | ES_READONLY
+    LISTBOX         IDC_LIST1,0,45,845,590,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    EDITTEXT        IDC_EDIT1,0,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT2,40,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT3,90,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT4,130,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT5,180,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT6,230,0,20,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT7,250,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT8,300,0,20,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT9,320,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT10,366,0,20,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT11,390,0,20,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT12,410,0,40,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT13,465,0,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT14,509,0,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+    EDITTEXT        IDC_EDIT15,555,0,45,14,ES_RIGHT | ES_AUTOHSCROLL | 
+                    ES_READONLY
+END
+
+IDD_SELEXECMODE_DIALOG DIALOGEX 0, 0, 319, 237
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AutoTrader - 実行モードの選択"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    CONTROL         "トレードモード",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP | WS_TABSTOP,10,15,55,10
+    CONTROL         "シミュレーションモード",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,10,25,79,10
+    CONTROL         "リアルタイムシミュレーションモード",IDC_RADIO3,"Button",
+                    BS_AUTORADIOBUTTON | WS_TABSTOP,10,35,115,10
+    GROUPBOX        "実行モード",IDC_GROUP1,5,5,250,45
+    CONTROL         "そしあす証券メンテナンス",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_DISABLED | WS_TABSTOP,10,65,90,10
+    CONTROL         "松井証券メンテナンス",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,75,79,10
+    CONTROL         "コスモ証券メンテナンス",IDC_CHECK3,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,10,85,83,10
+    GROUPBOX        "メンテナンスモード",IDC_GROUP2,5,55,250,45
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR1,"SysMonthCal32",
+                    MCS_NOTODAY | WS_DISABLED | WS_TABSTOP,10,115,130,115,
+                    WS_EX_DLGMODALFRAME
+    CONTROL         "DateTimePicker1",IDC_DATETIMEPICKER1,"SysDateTimePick32",
+                    DTS_RIGHTALIGN | DTS_UPDOWN | DTS_APPCANPARSE | 
+                    WS_DISABLED | WS_TABSTOP | 0x8,145,115,40,15
+    GROUPBOX        "シミュレーションモード開始日時",IDC_GROUP3,5,105,250,
+                    130,WS_DISABLED
+    DEFPUSHBUTTON   "OK",IDOK,263,7,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,263,24,50,14
+END
+
+IDD_SETUP_DIALOG DIALOG DISCARDABLE  0, 0, 330, 185
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "設定"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "口座番号",IDC_STATIC,15,21,28,8
+    EDITTEXT        IDC_EDIT1,55,15,40,14,ES_AUTOHSCROLL
+    LTEXT           "パスワード",IDC_STATIC,15,35,32,8
+    EDITTEXT        IDC_EDIT2,55,31,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "そしあす証券",IDC_STATIC,5,5,95,45
+    LTEXT           "会員ID",IDC_STATIC,15,71,21,8
+    EDITTEXT        IDC_EDIT3,55,65,40,14,ES_AUTOHSCROLL
+    LTEXT           "パスワード",IDC_STATIC,15,85,32,8
+    EDITTEXT        IDC_EDIT4,55,81,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "松井証券",IDC_STATIC,5,55,95,45
+    LTEXT           "口座番号",IDC_STATIC,15,121,28,8
+    EDITTEXT        IDC_EDIT5,55,115,40,14,ES_AUTOHSCROLL
+    LTEXT           "パスワード",IDC_STATIC,15,135,32,8
+    EDITTEXT        IDC_EDIT6,55,131,40,14,ES_PASSWORD | ES_AUTOHSCROLL
+    GROUPBOX        "コスモ証券",IDC_STATIC,5,105,95,45
+    CONTROL         "ﾁｪｯｸ && ｱｯﾌﾟﾃﾞｰﾄ (安定版、安定度★★★）",IDC_RADIO1,
+                    "Button",BS_AUTORADIOBUTTON | WS_GROUP,110,15,145,10
+    CONTROL         "ﾁｪｯｸ && 通知 (安定版、安定度★★★）",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,110,25,145,10
+    CONTROL         "ﾁｪｯｸ && ｱｯﾌﾟﾃﾞｰﾄ (開発β版、安定度★★)",IDC_RADIO3,
+                    "Button",BS_AUTORADIOBUTTON,110,35,145,10
+    CONTROL         "ﾁｪｯｸ && 通知 (開発β版、安定度★★)",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,110,45,145,10
+    CONTROL         "ﾁｪｯｸ && ｱｯﾌﾟﾃﾞｰﾄ (最新開発α版、安定度★)",IDC_RADIO5,
+                    "Button",BS_AUTORADIOBUTTON,110,55,146,10
+    CONTROL         "ﾁｪｯｸ && 通知 (最新開発α版、安定度★)",IDC_RADIO6,
+                    "Button",BS_AUTORADIOBUTTON,110,65,145,10
+    CONTROL         "ﾁｪｯｸしない",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON,110,
+                    75,55,10
+    PUSHBUTTON      "今すぐﾁｪｯｸ",IDC_BUTTON1,210,90,50,14
+    GROUPBOX        "起動ﾞ時等の AutoTrader のｱｯﾌﾟﾃﾞｰﾄﾁｪｯｸ",IDC_STATIC,105,5,
+                    160,145
+    EDITTEXT        IDC_EDIT7,10,165,195,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "参照",IDC_BUTTON2,205,165,19,14
+    PUSHBUTTON      "標準に戻す",IDC_BUTTON3,225,165,39,14
+    GROUPBOX        "データフォルダ",IDC_STATIC,5,155,260,25
+    DEFPUSHBUTTON   "OK",IDOK,275,10,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,275,27,50,14
+END
+
+IDD_REMITREG_DIALOG DIALOGEX 0, 0, 223, 237
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AutoTrader - 送金について"
+FONT 9, "ＭＳ Ｐゴシック", 0, 0, 0x1
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,5,5,20,20
+    LTEXT           "AutoTrader をご利用いただきありがとうございます。\nAutoTrader はシェアウェアです。\nAutoTrader の無料試用期間は１週間です。\nAutoTrader のライセンスキーの有効期間は30日間です。",
+                    IDC_STATIC,34,5,176,35
+    LTEXT           "登録メールアドレス\nまたは\nVector の申込番号",
+                    IDC_STATIC,5,45,62,25
+    EDITTEXT        IDC_EDIT1,73,45,146,12,ES_AUTOHSCROLL
+    LTEXT           "ライセンス開始日",IDC_STATIC,5,81,51,8
+    CONTROL         "MonthCalendar1",IDC_MONTHCALENDAR1,"SysMonthCal32",
+                    MCS_NOTODAY | WS_TABSTOP,75,75,130,115,
+                    WS_EX_DLGMODALFRAME
+    LTEXT           "ライセンスキー",IDC_STATIC,5,200,47,8
+    EDITTEXT        IDC_EDIT2,73,200,146,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "送金登録",IDOK,5,220,47,14
+    PUSHBUTTON      "無料試用期間なので使ってみる",IDC_BUTTON1,56,220,113,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,171,220,47,14
+END
+
+IDD_UPDATEDETAIL_DIALOG DIALOG DISCARDABLE  0, 0, 359, 280
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "AutoTrader - AutoTrader アップデート"
+FONT 9, "ＭＳ Ｐゴシック"
+BEGIN
+    LTEXT           "",IDC_TEXT1,5,5,290,45
+    EDITTEXT        IDC_EDIT1,5,75,350,200,ES_MULTILINE | ES_READONLY | 
+                    WS_VSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,302,7,50,14
+    PUSHBUTTON      "ｷｬﾝｾﾙ",IDCANCEL,302,24,50,14
+    LTEXT           "アップデート内容",IDC_STATIC,5,65,60,8
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "041104B0"
+        BEGIN
+            VALUE "CompanyName", "\0"
+            VALUE "FileDescription", "AutoTrader MFC ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "AutoTrader\0"
+            VALUE "LegalCopyright", "Copyright (C) 2005\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "AutoTrader.EXE\0"
+            VALUE "ProductName", "AutoTrader ｱﾌﾟﾘｹｰｼｮﾝ\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x411, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_AUTOTRADER_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 840
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 633
+    END
+
+    IDD_SELEXECMODE_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 312
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+
+    IDD_SETUP_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 323
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 178
+    END
+
+    IDD_REMITREG_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 216
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 230
+    END
+
+    IDD_UPDATEDETAIL_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 352
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 273
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+#endif    // 日本語 resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_JPN)
+#ifdef _WIN32
+LANGUAGE 17, 1
+#pragma code_page(932)
+#endif //_WIN32
+#include "res\AutoTrader.rc2"  // Microsoft Visual C++ 以外のツールで編集されたリソース
+#include "l.jpn\afxres.rc"          // 標準のコンポーネント
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+
